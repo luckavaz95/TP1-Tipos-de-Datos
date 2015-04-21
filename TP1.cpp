@@ -7,12 +7,12 @@
 
 using namespace std;
 int main(){
-	int A, B, C, I;
+	int A, B, C;
 	bool D;
 	char E;
 	double F;
 	string G, H;
-	cout<<"Ingrese un caracter para identificar el resultado de la suma A+B \n";
+	cout<<"Ingrese un caracter para identificar el resultado \n";
 	cin>>E;
 	cout<<"Ingrese un numero entero A \n";
 	cin>>A;
