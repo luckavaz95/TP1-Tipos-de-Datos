@@ -1,5 +1,5 @@
-/* Trabajo Pr·ctico 1 Tipos de Datos
-* Lucas V·zquez K1091
+/* Trabajo Pr√°ctico 1 Tipos de Datos
+* Lucas V√°zquez K1091
 * 14/04/2015
 */
 
@@ -7,7 +7,7 @@
 
 using namespace std;
 int main(){
-	int A, B, C, I;
+	int A, B, C;
 	bool D;
 	char E;
 	double F;
