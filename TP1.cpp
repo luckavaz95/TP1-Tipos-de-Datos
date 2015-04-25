@@ -7,7 +7,7 @@
 
 using namespace std;
 int main(){
-	int A, B, C, I;
+	int A, B, C;
 	bool D;
 	char E;
 	double F;
