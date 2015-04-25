@@ -1,6 +1,6 @@
 /* Trabajo Práctico 1 Tipos de Datos
 * Lucas Vázquez K1091
-* 14/04/2015
+* 24/04/2015
 */
 
 #include <iostream>
@@ -27,14 +27,18 @@ int main(){
 	F=C/2.0;
 	cout<<F;
 	cout<<endl;
-	D=C%2;
+	D=(C%2)&&(C!=0);
 	if (D==false){
-	cout<<E;
-	cout<<" un numero par";}
+		cout<<E;
+		cout<<" un numero par";
+	}
 	else{
-	cout<<E;
-	cout<<" es un numero impar";};
+		cout<<E;
+		cout<<" es un numero impar";
+	};
 	cout<<endl;
+	string str ("Argentina");
+	cout<<"La palabra 'Argentina' tiene "<<str.size()<<" letras \n";
 	G="Fin del ";
 	H="Programa";
 	cout<<G+H;
